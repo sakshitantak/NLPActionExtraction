@@ -1,0 +1,7 @@
+As a user, I want to display the images in grey scale or in black and white.
+As a user of a LIMS, I want to receive data in HL7 format, so that I can display and store data from your system.
+As an IT administrator, I want to update the software from the software vendor server, so that I can have an up-to-date version without requiring the intervention of the software vendor technical support.
+As a doctor, I want to have a false positive rate of maximum 5%, so that I can be confident enough with the system.
+As social care, I want to review my patients end of life care
+As a health care professional, I want to view a trend of results over time
+As hospital services accident and emergency, I want to see all patients currently admitted to the emergency department

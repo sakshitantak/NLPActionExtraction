@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>User Story Calculator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+	<div class="container-contact100">
+		<div class="wrap-contact20">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Enter User Story
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter your message">
+					<textarea id="sentence_input" class="input100" name="message" placeholder="Your User Story"
+						cols="20" rows="20"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<br>
+				
+				<div class="container-contact100-form-btn">
+					<select name="type_input" id="type_input" class="contact100-form-btn" style="background-color: indigo;">
+						<option value="whatsapp" selected>WhatsApp</option>
+						<option value="bank">Bank</option>
+						<option value="publisher">Publisher Application</option>
+						<option value="online_shopping">Online Shopping</option>
+					</select>
+				</div>
+				<br>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" type="button" onclick="get_information_json()">
+						<span>
+							<i class="fa fa-arrow-right m-r-6" aria-hidden="true"></i>
+							Calculate
+						</span>
+					</button>
+				</div>
+				<span id="suggestionsTitle" class="contact100-form-title">
+					OR
+				</span>
+				<input id='fileid' type='file' accept='text/plain' onchange="on_file_selected(event)" hidden />
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" id="button" type="button" onclick="start_file_upload()">
+						<span>
+							<i class="fa fa-arrow-right m-r-6" aria-hidden="true"></i>
+							Upload File
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+		<div class="wrap-contact5"></div>
+		<div class="wrap-contact70" id="output-div" style="display: none">
+			<div id="tokensOut">
+				<span class="contact100-form-title">
+					Tokens
+				</span>
+
+				<div id="tokens" class="token-container">
+				</div>
+			</div>
+			<div id="testCaseOut">
+				<span id="suggestionsTitle" class="contact100-form-title">
+					Suggestions
+				</span>
+
+				<div id="suggestions" align="center">
+				</div>
+
+				<span id="suggestionsTitle" class="contact100-form-title">
+					Test Case Generated
+				</span>
+				<table style="width:100%" border="1">
+					<tr>
+						<td style="text-align: center">Test Case Number</td>
+						<td style="text-align: center" id="tid-out"></td>
+					</tr>
+					<tr>
+						<td style="text-align: center">Test Case Type</td>
+						<td style="text-align: center" id="type-out"></td>
+					</tr>
+					<tr>
+						<td style="text-align: center">Test Case Description</td>
+						<td style="text-align: center" id="action-out"></td>
+					</tr>
+					<tr>
+						<td style="text-align: center">Expected Test Inputs</td>
+						<td align="center" style="text-align: center" id="inputs-out">
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center">Expected Results</td>
+						<td style="text-align: center" id="expec-out"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="container-contact100-form-btn" style="margin-top: 50px;">
+				<button class="contact100-form-btn" style="margin-right: auto;" type="button" onclick="decreasePage()">
+					<span>
+						<i class="fa fa-arrow-left m-r-6" aria-hidden="true"></i>
+						Back
+					</span>
+				</button>
+				<button class="contact100-form-btn" type="button" onclick="increasePage()">
+					<span>
+						<i class="fa fa-arrow-right m-r-6" aria-hidden="true"></i>
+						Next
+					</span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Insert this line above script imports  -->
+	<script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<!-- Insert this line after script imports -->
+	<script>if (window.module) module = window.module;</script>
+
+	<script src="js/extract_information.js"></script>
+	<script src="js/swipe_pages.js"></script>
+	<script src="js/upload_file_control.js"></script>
+</body>
+
+</html>

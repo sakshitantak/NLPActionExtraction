@@ -1,0 +1,47 @@
+_id,action,common,expectation
+5e1ed84062855070c67e6f86,want,0,I want to display the images in grey scale or in black and white 
+5e1ed84162855070c67e6f87,display,0,I want to display the images in grey scale or in black and white 
+5e1ed84162855070c67e6f88,image,0,I want to display the images in grey scale or in black and white 
+5e1ed84162855070c67e6f89,grey,0,I want to display the images in grey scale or in black and white 
+5e1ed84162855070c67e6f8a,scale,0,I want to display the images in grey scale or in black and white 
+5e1ed84162855070c67e6f8b,black,0,I want to display the images in grey scale or in black and white 
+5e1ed84162855070c67e6f8c,white,0,I want to display the images in grey scale or in black and white 
+5e1ed8f4b32b9b9501251f63,want,1,I can display and store data from your system 
+5e1ed8f4b32b9b9501251f64,receive,1,I can display and store data from your system 
+5e1ed8f4b32b9b9501251f65,data,1,I can display and store data from your system 
+5e1ed8f4b32b9b9501251f66,hl,1,I can display and store data from your system 
+5e1ed8f4b32b9b9501251f67,format,1,I can display and store data from your system 
+5e1eda114eeaeca313575631,want,1,I can be confident enough with the system 
+5e1eda114eeaeca313575632,1,1,I can be confident enough with the system 
+5e1eda114eeaeca313575633,positive,1,I can be confident enough with the system 
+5e1eda114eeaeca313575634,rate,1,I can be confident enough with the system 
+5e1eda114eeaeca313575635,maximum,1,I can be confident enough with the system 
+5e1eda6a1b0f5bd66d74955a,want,0,I want a consolidated view of the patients current medications 
+5e1eda6a1b0f5bd66d74955b,consolidated,0,I want a consolidated view of the patients current medications 
+5e1eda6a1b0f5bd66d74955c,view,0,I want a consolidated view of the patients current medications 
+5e1eda6a1b0f5bd66d74955d,patient,0,I want a consolidated view of the patients current medications 
+5e1eda6a1b0f5bd66d74955e,current,0,I want a consolidated view of the patients current medications 
+5e1eda6a1b0f5bd66d74955f,medication,0,I want a consolidated view of the patients current medications 
+5e1edef9169b4dc25f505d39,want,1,I can have an up-to-date version without requiring the intervention of the software vendor technical support 
+5e1edef9169b4dc25f505d3a,update,1,I can have an up-to-date version without requiring the intervention of the software vendor technical support 
+5e1edef9169b4dc25f505d3b,software,1,I can have an up-to-date version without requiring the intervention of the software vendor technical support 
+5e1edef9169b4dc25f505d3c,software,1,I can have an up-to-date version without requiring the intervention of the software vendor technical support 
+5e1edef9169b4dc25f505d3d,vendor,1,I can have an up-to-date version without requiring the intervention of the software vendor technical support 
+5e1edef9169b4dc25f505d3e,server,1,I can have an up-to-date version without requiring the intervention of the software vendor technical support 
+5e1edf5194b20822020d002d,want,1,I want to review my patients end of life care 
+5e1edf5194b20822020d002e,review,1,I want to review my patients end of life care 
+5e1edf5194b20822020d002f,patient,1,I want to review my patients end of life care 
+5e1edf5194b20822020d0030,end,1,I want to review my patients end of life care 
+5e1edf5194b20822020d0031,life,1,I want to review my patients end of life care 
+5e1edf5194b20822020d0032,care,1,I want to review my patients end of life care 
+5e1edfa0e0b224becc28a96e,want,1,I want to view a trend of results over time 
+5e1edfa0e0b224becc28a96f,view,1,I want to view a trend of results over time 
+5e1edfa0e0b224becc28a970,trend,1,I want to view a trend of results over time 
+5e1edfa0e0b224becc28a971,result,1,I want to view a trend of results over time 
+5e1edfa0e0b224becc28a972,time,1,I want to view a trend of results over time 
+5e1edfcedf6b6c16f7fed202,want,1,I want to see all patients currently admitted to the emergency department 
+5e1edfcedf6b6c16f7fed203,patient,1,I want to see all patients currently admitted to the emergency department 
+5e1edfcedf6b6c16f7fed204,currently,1,I want to see all patients currently admitted to the emergency department 
+5e1edfcedf6b6c16f7fed205,admitted,1,I want to see all patients currently admitted to the emergency department 
+5e1edfcedf6b6c16f7fed206,emergency,1,I want to see all patients currently admitted to the emergency department 
+5e1edfcedf6b6c16f7fed207,department,1,I want to see all patients currently admitted to the emergency department 

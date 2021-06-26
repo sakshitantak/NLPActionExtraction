@@ -1,0 +1,42 @@
+,_id,action,expectation,Label
+0,5e2543f0b35a0c1bd9b4270e,want,I want a consolidated view of the patient 's current medications ,UNIQUE
+1,5e2543f0b35a0c1bd9b4270f,consolidated,I want a consolidated view of the patient 's current medications ,UNIQUE
+2,5e2543f0b35a0c1bd9b42710,view,I want a consolidated view of the patient 's current medications ,UNIQUE
+3,5e2543f0b35a0c1bd9b42711,patient,I want a consolidated view of the patient 's current medications ,UNIQUE
+4,5e2543f0b35a0c1bd9b42712,s,I want a consolidated view of the patient 's current medications ,UNIQUE
+5,5e2543f0b35a0c1bd9b42713,current,I want a consolidated view of the patient 's current medications ,UNIQUE
+6,5e2543f0b35a0c1bd9b42714,medication,I want a consolidated view of the patient 's current medications ,UNIQUE
+7,5e2545590f2f7b62b6204bdb,wish,I wish to view current medication from primary care general practice ,GENERIC
+8,5e2545590f2f7b62b6204bdc,view,I wish to view current medication from primary care general practice ,GENERIC
+9,5e2545590f2f7b62b6204bdd,current,I wish to view current medication from primary care general practice ,GENERIC
+10,5e2545590f2f7b62b6204bde,medication,I wish to view current medication from primary care general practice ,GENERIC
+11,5e2545590f2f7b62b6204bdf,primary,I wish to view current medication from primary care general practice ,GENERIC
+12,5e2545590f2f7b62b6204be0,care,I wish to view current medication from primary care general practice ,GENERIC
+13,5e2545590f2f7b62b6204be1,general,I wish to view current medication from primary care general practice ,GENERIC
+14,5e2545590f2f7b62b6204be2,practice,I wish to view current medication from primary care general practice ,GENERIC
+15,5e254581f85ca0c743d2ea9a,wish,I wish to view current medication from mental health services ,UNIQUE
+16,5e254581f85ca0c743d2ea9b,view,I wish to view current medication from mental health services ,UNIQUE
+17,5e254581f85ca0c743d2ea9c,current,I wish to view current medication from mental health services ,UNIQUE
+18,5e254581f85ca0c743d2ea9d,medication,I wish to view current medication from mental health services ,UNIQUE
+19,5e254581f85ca0c743d2ea9e,mental,I wish to view current medication from mental health services ,UNIQUE
+20,5e254581f85ca0c743d2ea9f,health,I wish to view current medication from mental health services ,UNIQUE
+21,5e254581f85ca0c743d2eaa0,service,I wish to view current medication from mental health services ,UNIQUE
+22,5e2545b1a24858c4505308d9,wish,I wish to view current medication from community dental services ,UNIQUE
+23,5e2545b1a24858c4505308da,view,I wish to view current medication from community dental services ,UNIQUE
+24,5e2545b1a24858c4505308db,current,I wish to view current medication from community dental services ,UNIQUE
+25,5e2545b1a24858c4505308dc,medication,I wish to view current medication from community dental services ,UNIQUE
+26,5e2545b1a24858c4505308dd,community,I wish to view current medication from community dental services ,UNIQUE
+27,5e2545b1a24858c4505308de,dental,I wish to view current medication from community dental services ,UNIQUE
+28,5e2545b1a24858c4505308df,service,I wish to view current medication from community dental services ,UNIQUE
+29,5e2545cc2c90ac98e09b4655,want,I want to receive result messages in a structured format ,GENERIC
+30,5e2545cc2c90ac98e09b4656,receive,I want to receive result messages in a structured format ,GENERIC
+31,5e2545cc2c90ac98e09b4657,result,I want to receive result messages in a structured format ,GENERIC
+32,5e2545cc2c90ac98e09b4658,message,I want to receive result messages in a structured format ,GENERIC
+33,5e2545cc2c90ac98e09b4659,structured,I want to receive result messages in a structured format ,GENERIC
+34,5e2545cc2c90ac98e09b465a,format,I want to receive result messages in a structured format ,GENERIC
+35,5e2545f481128de470601f79,want,I want to view results in a single consolidated view ,GENERIC
+36,5e2545f481128de470601f7a,view,I want to view results in a single consolidated view ,GENERIC
+37,5e2545f481128de470601f7b,result,I want to view results in a single consolidated view ,GENERIC
+38,5e2545f481128de470601f7c,single,I want to view results in a single consolidated view ,GENERIC
+39,5e2545f481128de470601f7d,consolidated,I want to view results in a single consolidated view ,GENERIC
+40,5e2545f481128de470601f7e,view,I want to view results in a single consolidated view ,GENERIC
